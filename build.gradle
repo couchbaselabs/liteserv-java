@@ -1,0 +1,28 @@
+apply plugin: 'java'
+
+group 'com.couchbase.lite'
+version '0.0.1-1'
+
+jar {
+    manifest {
+        attributes 'Title': 'com.couchbase.lite.LiteServ', 'Version': version
+    }
+}
+repositories {
+    jcenter()
+    maven {
+        url "http://files.couchbase.com/maven2/"
+    }
+}
+
+dependencies {
+    // couchbase lite for java
+    compile 'com.couchbase.lite:couchbase-lite-java:1.3.1-21'
+    compile 'com.couchbase.lite:couchbase-lite-java-listener:1.3.1-21'
+    compile 'com.couchbase.lite:couchbase-lite-java-javascript:1.3.1-21'
+
+    // command line argument parser
+    compile 'commons-cli:commons-cli:1.3.1'
+
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
