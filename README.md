@@ -23,7 +23,7 @@ Notes
 
 Notes:
 - all output goes to build directory
-- script file (run.sh) in zip file, you can customize it to set different parameters.
+- there is a script file (run.sh) in zip file, you can customize it to set different parameters.
 
 ###Run with gradle
 1. `./gradlew runApp`
@@ -33,6 +33,7 @@ Before running the app, you can setup environment variables to set the app setti
 
 Name       | Default value| Description|
 -----------|--------------|------------|
+help       |              | print usage
 dir        |<application dir> | directory store the database
 port       |49850         |Listener port to listen on
 user       |"" | Username for connecting to remote database
