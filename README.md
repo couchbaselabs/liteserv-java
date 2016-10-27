@@ -33,7 +33,10 @@ Before running the app, you can setup environment variables to set the app setti
 
 Name       | Default value| Description|
 -----------|--------------|------------|
+dir        |<application dir> | directory store the database
 port       |49850         |Listener port to listen on
+user       |"" | Username for connecting to remote database
+password   |"" | Password for connecting to remote database
 storage    |SQLite        |Set default storage engine: 'SQLite' or 'ForestDB'
 dbpasswords|Empty value   |Register passwords to open a database. Format: db1=pass1,db2=pass2,..
 
