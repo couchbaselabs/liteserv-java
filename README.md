@@ -15,13 +15,15 @@ LiteServ-java is a LiteServ app that runs on iOS or tvOS devices.
 1. `cd liteserv-java`
 2. `./gradlew build`
 
-Note: all output goes to build directory
+Notes
+- all output goes to build directory
 
 ###Create zip file
 1. `./gradlew zip`
 
-Note: all output goes to build directory
-Note: script file (run.sh) in zip file, you can customize it to set different parameters.
+Notes:
+- all output goes to build directory
+- script file (run.sh) in zip file, you can customize it to set different parameters.
 
 ###Run with gradle
 1. `./gradlew runApp`
