@@ -1,5 +1,5 @@
 # liteserv-java
-LiteServ-java is a LiteServ app that runs on iOS or tvOS devices.
+LiteServ-java is a LiteServ app that runs on Linux
 
 ##How to build and run?
 
