@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/com.couchbase.lite.LiteServ.iml" filepath="$PROJECT_DIR$/com.couchbase.lite.LiteServ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.couchbase.lite.LiteServ.iml" filepath="$PROJECT_DIR$/.idea/modules/com.couchbase.lite.LiteServ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.couchbase.lite.LiteServ_main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.couchbase.lite.LiteServ_main.iml" group="com.couchbase.lite.LiteServ" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.couchbase.lite.LiteServ_test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.couchbase.lite.LiteServ_test.iml" group="com.couchbase.lite.LiteServ" />
     </modules>
   </component>
 </project>
