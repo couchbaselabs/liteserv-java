@@ -1,5 +1,6 @@
 package com.couchbase.lite;
 
+import com.couchbase.lite.javascript.*;
 import com.couchbase.lite.listener.Credentials;
 import com.couchbase.lite.listener.LiteListener;
 import com.couchbase.lite.util.Log;
@@ -31,6 +32,9 @@ public class LiteServ {
     }
 
     protected Manager initManager(LiteServOptions liteServOpts) throws IOException {
+        View.setCompiler(new JavaScriptViewCompiler());
+        Database.setFilterCompiler(new JavaScriptReplicationFilterCompiler());
+
         Manager manager = new Manager(new LiteServJavaContext(liteServOpts.getDir()), new ManagerOptions());
         manager.setStorageType(liteServOpts.getStorage());
         if (liteServOpts.getDbpassword() != null && liteServOpts.getDbpassword().length() > 0) {
