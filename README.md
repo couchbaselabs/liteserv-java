@@ -1,3 +1,5 @@
+⚠️ This repo is obsolete.  It was used for Couchbase Lite 1.x testing.
+
 # liteserv-java
 LiteServ-java is a LiteServ app that runs on Linux
 
